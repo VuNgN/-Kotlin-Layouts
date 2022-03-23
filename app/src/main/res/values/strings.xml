@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">layout</string>
+    <string name="textTitle">Welcome to my layout</string>
+    <string name="linear_layout_btn">Linear Layout</string>
+    <string name="relative_layout_btn">Relative Layout</string>
+    <string name="constraint_layout_btn">Constraint Layout</string>
+    <string name="linear_layout_title">Linear layout</string>
+    <string name="button_1_linear_layout">Button 1</string>
+    <string name="button_2_linear_layout">Button 2</string>
+    <string name="button_3_linear_layout">Button 3</string>
+    <string name="button_4_linear_layout">Button 4</string>
+    <string name="back_to_home_Btn">Back to home</string>
+    <string name="constraint_layout_title">Constraint layout</string>
+    <string name="description1">Chain</string>
+    <string name="relative_layout_title">Relative layout</string>
+    <string name="view1_text">view 1</string>
+    <string name="view2_text">view 2</string>
+    <string name="view3_text">view 3</string>
+    <string name="view4_text">view 4</string>
+    <string name="addBtn">+</string>
+</resources>

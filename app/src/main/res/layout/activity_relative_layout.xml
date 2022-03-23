@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:ignoreGravity="@id/addBtn"
+    android:background="@android:color/holo_green_dark"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/backBtn"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:text="@string/relative_layout_title"
+            android:textSize="36sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/viewDemoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleLayout"
+        android:background="@color/white"
+        android:layout_marginTop="100dp"
+        android:padding="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/view1"
+            android:text="@string/view1_text"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="#e8d33636"
+            android:layout_alignTop="@id/view2"/>
+
+        <TextView
+            android:id="@+id/view2"
+            android:text="@string/view2_text"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="200dp"
+            android:background="#e71faf15" />
+        <TextView
+            android:id="@+id/view3"
+            android:text="@string/view3_text"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:background="#d4a00f8f"
+            android:layout_alignBottom="@id/view2"/>
+        <TextView
+            android:id="@+id/view4"
+            android:text="@string/view4_text"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="200dp"
+            android:background="#e73700B3"
+            android:layout_alignEnd="@id/view1"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/backBtn"
+        android:text="@string/back_to_home_Btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        />
+
+    <Button
+        android:id="@+id/addBtn"
+        android:text="@string/addBtn"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>
