@@ -8,229 +8,6 @@
     android:background="@color/black"
     tools:context=".MainActivity"
     tools:targetApi="lollipop" >
-<!--    <LinearLayout-->
-<!--        android:orientation="horizontal"-->
-<!--        android:gravity="center|top"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:background="#a6dfdfdf"-->
-<!--        android:layout_margin="10dp"-->
-<!--        xmlns:android="http://schemas.android.com/apk/res/android">-->
-<!--        <Button-->
-<!--            android:background="#dc9e1a"-->
-<!--            android:text="B1"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content" />-->
-<!--        <Button-->
-<!--            android:background="#00c853"-->
-<!--            android:text="B1"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content" />-->
-<!--        <Button-->
-<!--            android:background="#141ba9"-->
-<!--            android:text="B1"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content" />-->
-<!--        <Button-->
-<!--            android:background="#dc1a8b"-->
-<!--            android:text="B1"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content" />-->
-<!--        -->
-<!--    </LinearLayout>-->
-<!--    <?xml version="1.0" encoding="utf-8"?>-->
-<!--    <RelativeLayout-->
-<!--        xmlns:android="http://schemas.android.com/apk/res/android"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_margin="8dp"-->
-<!--        android:background="#e2e3eb"-->
-<!--        android:gravity="center"-->
-<!--        tools:ignore="ExtraText">-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/view1"-->
-<!--            android:text="view1"-->
-<!--            android:gravity="center"-->
-<!--            android:layout_width="200dp"-->
-<!--            android:layout_height="50dp"-->
-<!--            android:layout_alignBottom="@id/view3"-->
-<!--            android:layout_toLeftOf="@id/view3"-->
-<!--            android:background="#e8d33636" />-->
-
-
-<!--        <TextView-->
-<!--            android:id="@+id/view2"-->
-<!--            android:text="view2"-->
-<!--            android:gravity="center"-->
-<!--            android:layout_width="50dp"-->
-<!--            android:layout_height="200dp"-->
-<!--            android:layout_centerHorizontal="true"-->
-<!--            android:layout_above="@id/view1"-->
-<!--            android:layout_alignRight="@id/view1"-->
-<!--            android:background="#e71faf15" />-->
-<!--        <TextView-->
-<!--            android:id="@+id/view3"-->
-<!--            android:text="view3"-->
-<!--            android:gravity="center"-->
-<!--            android:layout_width="100dp"-->
-<!--            android:layout_height="100dp"-->
-<!--            android:layout_centerInParent="true"-->
-<!--            android:layout_alignParentRight="true"-->
-<!--            android:layout_marginRight="30dp"-->
-
-<!--            android:background="#d4a00f8f" />-->
-<!--    </RelativeLayout>-->
-<!--    <RelativeLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        android:layout_margin="8dp"-->
-<!--        android:background="#00ABD5"-->
-<!--        android:gravity="center"-->
-<!--        tools:layout_editor_absoluteX="8dp"-->
-<!--        tools:layout_editor_absoluteY="8dp">-->
-
-<!--        <TextView-->
-<!--            android:id="@+id/textview"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_centerHorizontal="true"-->
-<!--            android:text="Đăng nhập"-->
-<!--            android:textAllCaps="true"-->
-<!--            android:textColor="#eeeeee"-->
-<!--            android:textSize="20sp" />-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/username"-->
-<!--            android:hint="Username"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="50sp"-->
-<!--            android:layout_below="@id/textview"-->
-<!--            android:background="#eeeeee"-->
-<!--            android:textColor="#000000"-->
-<!--            android:layout_marginTop="40dp" />-->
-
-<!--        <EditText-->
-<!--            android:id="@+id/password"-->
-<!--            android:hint="Password"-->
-<!--            android:inputType="textPassword"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="50sp"-->
-<!--            android:layout_below="@id/username"-->
-<!--            android:background="#eeeeee"-->
-<!--            android:textColor="#000000"-->
-<!--            android:layout_marginTop="8dp"-->
-<!--            android:layout_marginBottom="20sp"/>-->
-
-<!--        <Button-->
-<!--            android:id="@+id/btnLogin"-->
-<!--            android:layout_below="@id/password"-->
-<!--            android:layout_toLeftOf="@id/recoveryPassword"-->
-<!--            android:text="Đăng nhập"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        <Button-->
-<!--            android:id="@+id/recoveryPassword"-->
-<!--            android:text="Quyên MK"-->
-<!--            android:layout_centerHorizontal="true"-->
-<!--            android:layout_below="@id/password"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_marginHorizontal="8sp"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--        <Button-->
-<!--            android:id="@+id/help"-->
-<!--            android:text="Trợ giúp"-->
-<!--            android:layout_below="@id/password"-->
-<!--            android:layout_toRightOf="@id/recoveryPassword"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content" />-->
-
-<!--    </RelativeLayout>-->
-
-<!--    <android.support.constraint.Guideline-->
-<!--        android:id="@+id/guideline"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:orientation="vertical"-->
-<!--        app:layout_constraintGuide_begin="100dp"-->
-<!--        app:layout_constraintGuide_percent="0.5"/>-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button"-->
-<!--        android:text="button 1"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintRight_toRightOf="parent"-->
-<!--        app:layout_constraintLeft_toLeftOf="@id/guideline" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/button2"-->
-<!--        android:text="button 2"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintBottom_toBottomOf="@id/button"-->
-<!--        app:layout_constraintRight_toRightOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.3"/>-->
-<!--    <Button-->
-<!--        android:id="@+id/b1"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:textColor="#1eb729"-->
-<!--        android:text="B1 - HEAD"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/b5"-->
-<!--        app:layout_constraintHorizontal_chainStyle="spread"-->
-<!--        app:layout_constraintRight_toLeftOf="@id/b2"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/b4" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/b2"-->
-<!--        android:text="B2"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="8dp"-->
-<!--        android:layout_marginTop="8dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintLeft_toRightOf="@id/b1"-->
-<!--        app:layout_constraintRight_toLeftOf="@id/b3"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/b3"-->
-<!--        android:text="B3"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginBottom="8dp"-->
-<!--        android:layout_marginTop="8dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintLeft_toRightOf="@id/b2"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/b4"-->
-<!--        android:text="B4 - HEAD"-->
-<!--        android:textColor="#cf3131"-->
-<!--        app:layout_constraintBottom_toTopOf="@id/b1"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_chainStyle="spread_inside"-->
-<!--        app:layout_constraintLeft_toLeftOf="@id/b1"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content" />-->
-
-<!--    <Button-->
-<!--        android:id="@+id/b5"-->
-<!--        android:text="B5"-->
-<!--        app:layout_constraintTop_toBottomOf="@id/b1"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintLeft_toLeftOf="@id/b1"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content" />-->
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline"
@@ -262,7 +39,7 @@
         app:layout_constraintTop_toBottomOf="@id/textTitle"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="70sp" />
+        android:layout_marginTop="70dp" />
     <Button
         android:id="@+id/RelativeLayoutBtn"
         android:text="@string/relative_layout_btn"
@@ -275,7 +52,7 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toRightOf="@id/ConstraintLayoutBtn"
         app:layout_constraintVertical_chainStyle="spread"
-        android:layout_marginTop="20sp" />
+        android:layout_marginTop="20dp" />
     <Button
         android:id="@+id/ConstraintLayoutBtn"
         android:text="@string/constraint_layout_btn"
@@ -287,5 +64,5 @@
         app:layout_constraintTop_toBottomOf="@id/LinearLayoutBtn"
         app:layout_constraintRight_toLeftOf="@id/RelativeLayoutBtn"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginTop="20sp" />
+        android:layout_marginTop="20dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
